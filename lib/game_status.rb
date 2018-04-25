@@ -16,6 +16,9 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
+  board.each do |board_test|
+    if board_test == "X" || board_test == "O"
+
   if board.all? == "" || board.all? == " "
     return false
   else
