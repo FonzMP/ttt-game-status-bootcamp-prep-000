@@ -47,4 +47,6 @@ def full?(board)
     else
       full_board += 0
     end
+  if full_board == 9
+    return true
 end
