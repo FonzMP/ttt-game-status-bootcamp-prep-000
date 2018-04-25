@@ -76,4 +76,5 @@ end
 def winner(board)
   if won?(board)
     return "We have a winner!"
+  end
 end
