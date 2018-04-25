@@ -13,5 +13,4 @@ WIN_COMBINATIONS = [
   [2,5,8], # Right column
   [0,4,8], # Diagonal 1
   [2,4,6]
-  # ETC, an array for each win combination
 ]
