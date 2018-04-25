@@ -17,8 +17,8 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   board_test = board.all?{|letter| letter == "" or letter == " "}
-  if true
-    return true
+  if board_test
+    return false
   else
     return false
   if board.all? == "" || board.all? == " "
