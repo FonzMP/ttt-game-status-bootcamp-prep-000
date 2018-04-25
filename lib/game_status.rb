@@ -40,6 +40,7 @@ def won?(board)
 end
 
 def full?(board)
+  full_board = []
   board.each do |letter|
     if letter == "X" || letter == "O"
 end
