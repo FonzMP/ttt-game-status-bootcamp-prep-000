@@ -16,9 +16,11 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.each do |board_test|
-    if board_test == "X" || board_test == "O"
-
+  board.all?{|letter| letter = "" or " "}
+  if true
+    return true
+  else
+    return false
   if board.all? == "" || board.all? == " "
     return false
   else
