@@ -75,6 +75,9 @@ end
 
 def winner(board)
   if won?(board)
-    return "We have a winner!"
+    if win_combination[0] == "X"
+      return "X"
+    else
+      return "O"
   end
 end
