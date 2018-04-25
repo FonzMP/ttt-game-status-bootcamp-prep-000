@@ -75,10 +75,7 @@ end
 
 def winner(board)
   if won?(board)
-    if won?(board)[0][1] == "X"
-      return "X"
-    else
-      return "O"
-    end
+    won?(board)[0][1]
+
   end
 end
