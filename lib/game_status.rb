@@ -44,4 +44,6 @@ def full?(board)
   board.each do |letter|
     if letter == "X" || letter == "O"
       full_board += 1
+    else
+      full_board += 0
 end
