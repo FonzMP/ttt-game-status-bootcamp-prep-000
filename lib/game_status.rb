@@ -40,8 +40,6 @@ def won?(board)
 end
 
 def full?(board)
-  board_full = board.include?{|letter| letter == "X" || letter == "O"}
-  if board_full
-    return false
-  end
+  board.each do |letter|
+    if letter == "X" || letter == "O"
 end
