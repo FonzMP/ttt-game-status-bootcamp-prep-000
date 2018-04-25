@@ -28,7 +28,7 @@ def won?(board)
       current_combination << win_index_1
       current_combination << win_index_2
       current_combination << win_index_3
-      print current_combination
+      
       # position_1 = board[win_index_1]
       # position_2 = board[win_index_2]
       # position_3 = board[win_index_3]
