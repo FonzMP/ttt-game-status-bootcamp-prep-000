@@ -40,7 +40,7 @@ def won?(board)
 end
 
 def full?(board)
-  full_board = []
+  full_board = 0
   board.each do |letter|
     if letter == "X" || letter == "O"
       full_board += 1
