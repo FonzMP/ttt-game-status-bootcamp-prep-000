@@ -19,6 +19,10 @@ def won?(board)
   if board.all? == "" || board.all? == " "
     return false
   end
-  
+  for win_combination in WIN_COMBINATIONS do
+    win_index_1 = win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_2 = win_combination[2]
+  end
 
 end
