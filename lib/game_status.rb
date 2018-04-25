@@ -24,10 +24,6 @@ def won?(board)
       win_index_2 = win_combination[1]
       win_index_3 = win_combination[2]
 
-      print win_index_1
-      print win_index_2
-      print win_index_3
-
       current_combination = []
       current_combination << win_index_1
       current_combination << win_index_2
