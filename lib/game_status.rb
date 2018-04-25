@@ -40,5 +40,5 @@ def won?(board)
 end
 
 def full?(board)
-  
+  board_full = board.all?{|letter| letter == "X" || letter == "O"}
 end
