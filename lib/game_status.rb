@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.all?{|letter| letter == "" or letter == " "}
+  board_test = board.all?{|letter| letter == "" or letter == " "}
   if true
     return true
   else
