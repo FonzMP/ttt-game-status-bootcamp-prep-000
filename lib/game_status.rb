@@ -75,7 +75,7 @@ end
 
 def winner(board)
   if won?(board)
-    won?(board)[0][1]
+    board_index = won?(board)[0][1]
 
   end
 end
