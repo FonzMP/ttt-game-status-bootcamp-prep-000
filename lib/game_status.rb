@@ -28,6 +28,10 @@ def won?(board)
       print win_index_2
       print win_index_3
 
+      current_combination = []
+      current_combination << win_index_1
+      current_combination << win_index_1
+      current_combination << win_index_1
       # position_1 = board[win_index_1]
       # position_2 = board[win_index_2]
       # position_3 = board[win_index_3]
