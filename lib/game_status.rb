@@ -41,4 +41,6 @@ end
 
 def full?(board)
   board_full = board.all?{|letter| letter == "X" || letter == "O"}
+  if board_full
+    return false
 end
