@@ -46,4 +46,5 @@ def full?(board)
       full_board += 1
     else
       full_board += 0
+    end
 end
