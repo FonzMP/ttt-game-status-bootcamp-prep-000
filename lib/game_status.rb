@@ -32,7 +32,7 @@ def won?(board)
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         return win_combination_x = win_combination
       elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-        return win_combination_owin_combination
+        return win_combination_o = win_combination
       end
     end
     return false
@@ -74,5 +74,11 @@ def over?(board)
 end
 
 def winner(board)
-
+  if won?(board) == win_combination_x
+    return "X"
+  elsif won?(board) == win_combination_o
+    return "O"
+  else
+    return false
+  end
 end
